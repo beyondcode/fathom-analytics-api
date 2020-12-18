@@ -13,7 +13,7 @@ composer require beyondcode/fathom-api
 ## Usage
 
 ```php
-$analytics = new BeyondCode\FathomAnalytics($email, $password);
+$analytics = new BeyondCode\FathomAnalytics\FathomAnalytics($email, $password);
 
 $sites = $analytics->getSites();
 
