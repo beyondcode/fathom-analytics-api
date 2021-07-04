@@ -39,7 +39,7 @@ class FathomAnalytics
         ]);
 
         if($this->browser->getHistory()->current()->getUri() === static::TWO_FACTOR_AUTH_URL) {
-            $this->browser->submitForm('Log in', [
+            $this->browser->submitForm('Login', [
                 'one_time_password' => $oneTimePassword,
             ]);
         }
